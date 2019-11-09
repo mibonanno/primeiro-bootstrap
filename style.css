@@ -1,0 +1,70 @@
+.carousel-item h5 {
+    color: #000;
+  
+}
+.carousel-item h5{
+    font-size: 40px;
+}
+
+.carousel-item h5{
+    background: #bdbabacc;
+    opacity: 0.7;
+}
+.ali{
+    padding: 50px;
+}
+.card-img-top {
+    height: 360px;
+    width: 285px;
+ 
+}
+
+.navbar-primary navbar{
+    height: 45px;
+}
+
+.navbar-primary navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* .container{ PODE APAGAR, COLOQUEI NA DIV NOVA
+    margin-top: 8%;
+} */
+
+.ourstory-container {
+    margin-top: 8%;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner.img{
+    transition: all 1.5 ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+.title-section{
+    font-size: 50px;
+    font-family: fantasy; 
+    
+}
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.imagem{
+    background-image: url(./img/neons.jpg);
+}
+
+.footer-text {
+    background-color: crimson;
+}

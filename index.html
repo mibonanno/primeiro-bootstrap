@@ -1,0 +1,436 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--NaveBar-->
+    <nav class="navbar-primary navbar navbar-expand-lg navbar-dark" style="background-color: #0b0c0c;">
+       
+        <img class="logo" src="img/logo.jpg"></a>
+        
+        <a class="navbar-brand" href="#">oxy'n'Roll Art Store</a>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+            aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="textoNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourstory">Our Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#produtos">Estamparia</a>
+                </li> 
+                
+                <!--Nav Dropdown-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contato
+                    </a>
+                    <!--Itens Dropdown-->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://www.deviantart.com/roxydrama"
+                            target="_blank">DeviantArt</a>
+                        <a class="dropdown-item" href="https://br.pinterest.com/misabstrat/"
+                            target="_blank">Pinterest</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/mod.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DIGITAL PAINTING</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/wall.jpg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ART WALL</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/graf.jpg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>GRAFITE ART</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <br>
+
+    <!--Sobre-->
+    <div class="ourstory-container"> <!-- Nova div -->
+        <div class="container" id="ourstory">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-3">
+                    <br><br>
+                    <img src="img/thumb.jpg" class="img-thumbnail" class="img-fluid" alt="Imagem responsiva">
+                </div>
+                <div class="ali col-12 col-sm-12 col-md-9">
+                	<h1 class="display-4 text-center">Our Story</h1>
+                	<p class="text-general">A Roxy Roll Store nasceu do desejo de pluralizar diversas manifestações
+                        artisticas em diferentes plataformas, como Digital, Paredes , Grafites , estamparia, abrangendo todo
+                        o universo da Arte contemporânea , pelas criações da artista Michelle B; a fim de expressar suas
+                        concepções de mundo e manifestar seu posicionamento social de forma onírica. Propõe enquanto arte ,
+                        a posição de produções femininas, e o questionamento da condição do gênero na sociedade, trazendo a
+                        tona a militância por igualdade, direitos e condições, democratizando trabalhos
+                        artisticos femininos de alto nivel para todos. 
+                	</p>
+           	</div>
+       	</div>
+    </div>
+    </div> <!-- fechamento da nova div -->
+
+    <!--Cards!-->
+
+    <div> <!-- Nova div -->
+        <div class="container mb-5" id="produtos"> <!--essa div tem q fechar la embaixo-->
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-4">
+                    <div class="card shadow" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="img/stencil.jpg" alt="Imagem de capa do card">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">T-Shirt Stencil</h5>
+                            <p class="card-text"> Camiseta masculina Basica Stencil Art Stamp</p>
+                            <button type="button" class= "btn btn-outline-warning"data-toggle="modal" data-target="#modalExemplo-1">Watch</button>
+                        </div>
+                    </div>
+                </div>         
+        
+                <div class="col-md-4">
+                    <div class="card shadow" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="img/baloes.jpg" alt="Imagem de capa do card">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Baby Look Colorful</h5>
+                            <p class="card-text">Camiseta Baby Look Red Hand Painting</p>
+                            <button type="button" class= "btn btn-outline-info"data-toggle="modal" data-target="#modalExemplo-1">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow" style="width: 18rem;">
+                        <div class = "inner">
+                        <img class="card-img-top" src="img/skate.jpg" alt="Imagem de capa do card"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Green Hoodie</h5>
+                            <p class="card-text">Moleton Unisex Verde Double Head Silk</p>
+                            <button type="button" class= "btn btn-outline-success"data-toggle="modal" data-target="#modalExemplo-1">Watch</button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--div row fecha aqui-->
+
+            <div class="row justify-content-between mb-5">
+                <div class="col-md-4">
+                    <div class="card shadow" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="img/rabeta.jpg" alt="Imagem de capa do card">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Baby Look Mess Head</h5>
+                            <p class="card-text">Baby Look Mix Head Mess three color</p>
+                            <button type="button" class= "btn btn-outline-dark"data-toggle="modal" data-target="#modalExemplo-1">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="img/azul.jpg" alt="Imagem de capa do card">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">T-shirt Unisex Royal Blue</h5>
+                            <p class="card-text">Manga Longa Unisex Estampa Abstrata</p>
+                            <button type="button" class= "btn btn-outline-primary"data-toggle="modal" data-target="#modalExemplo-1">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card shadow" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="img/yellow.jpg" alt="Imagem de capa do card">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Yellow Baby Look Dancer</h5>
+                            <p class="card-text">Baby Look Stencil Dancer Recortes Quebra-cabeça</p>
+                            <button type="button" class= "btn btn-outline-warning"data-toggle="modal" data-target="#modalExemplo-1">Watch</button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--fecha div row aqui-->
+
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+                    <div class="card shadow" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="img/moleton.jpg" alt="Imagem de capa do card">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Yellow Hoddie 80</h5>
+                            <p class="card-text">Moleton amarelo Estampa Stencil College</p>
+                            <button type="button" class= "btn btn-outline-success"data-toggle="modal" data-target="#modalExemplo-1">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card shadow" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="img/amy.jpg" alt="Imagem de capa do card">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Icon Amy </h5>
+                            <p class="card-text"> Shirt Estampada Ammy Winehouse</p> 
+                            <button type="button" class= "btn btn-outline-danger"data-toggle="modal" data-target="#modalExemplo-1">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card shadow" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="img/luli.jpg" alt="Imagem de capa do card">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kids Abstrat Shirt</h5>
+                            <p class="card-text">Camiseta Infantil Handmade Abstrat Painting</p>
+                            <button type="button" class= "btn btn-outline-info"data-toggle="modal" data-target="#modalExemplo-1">Watch</button>               
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <!--Modais-->
+            <div>
+                <div class="modal fade" id="modalExemplo-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">T-shirt Stencil</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Masculina Algodão Básica P, M, G , GG ,Cinza tie, 35,00 R$
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="modalExemplo-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">T-shirt Stencil</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                                <div class="modal-body">
+                                    Baby Look Algodão Vermelha P, M, G , GG, 30,00 R$
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalExemplo-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">T-shirt Stencil</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Masculina Algodão Básica P, M, G , GG ,Cinza tie, 35,00 R$
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="modalExemplo-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">T-shirt Stencil</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Masculina Algodão Básica P, M, G , GG ,Cinza tie, 35,00 R$
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalExemplo-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">T-shirt Stencil</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Masculina Algodão Básica P, M, G , GG ,Cinza tie, 35,00 R$ </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalExemplo-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">T-shirt Stencil
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Masculina Algodão Básica P, M, G , GG ,Cinza
+                                tie, 35,00 R$ </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!--div container la de cima fecha aqui-->
+    </div> <!-- fechamento da nova div lá de cima (a primeira escrita embaixo do comentario cards)-->
+
+<!-- Form -->
+    <div> <!--nova div-->
+        <div class="container mb-1">
+            <div class="contact-form">
+                <p class="title-section">Fale Conosco</p>
+            </div>
+            <form class="form-contact col-10" name="contact">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Nome</label>
+                    <input type="name" class="form-control" name="name" id="exampleFormControlInput1"
+                        placeholder="your name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput2">Email address</label>
+                    <input type="email" class="form-control" name="email" id="exampleFormControlInput2"
+                        placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput3">Telefone</label>
+                    <input type="phone" class="form-control" name="phone" id="exampleFormControlInput3"
+                        placeholder="your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea4">Mensagem</label>
+                    <textarea class="form-control" name="text" id="exampleFormControlTextarea4" rows="3"
+                        placeholder="type your text here"></textarea>
+                </div>
+                <button class="btn btn-danger" type="submit">Submit form</button>
+            </form>
+        </div>
+    </div> <!--fechamento-->
+
+<!-- Footer -->
+
+<!-- Footer -->
+<footer class="page-footer font-small bg-black pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container my-5">
+    
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/RoxyNRollStore/">
+                    <img src="./img/facebook.png" alt="facebook">
+                    
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1" href="https://www.instagram.com/mibonanno/">
+                    <img src="./img/instagram.png" alt="instagram">
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1" href="https://twitter.com/roxyplaces">
+                    <img src="./img/twitter.png" alt="twitter">
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1" href="https://web.whatsapp.com/">
+                    <img src="./img/whatsapp.png" alt="whatsapp">
+                </a>
+            </li>
+        </ul>
+        <!-- Social buttons -->
+    </div>
+    <!-- Footer Elements -->
+    
+    <!-- Copyright -->
+    <div class="text-center py-3 footer-text">
+        <div class="container">
+            <p class="text-white m-0">{Bootcamp Online Reprograma} Copyright © 2019 <br>
+                <i class="text-white" class="fas fa-code"></i>Codado na Buena Onda por Mibonanno
+            </p>
+        </div>
+    </div>
+    <!-- Copyright -->
+    
+</footer>
+    <!-- Footer -->
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
